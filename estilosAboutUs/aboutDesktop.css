@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    
+}
+.cabecera{
+    display: inline-flex;
+    background-color: black;
+    font-style: normal;
+    font-size: 15pt;
+    font-weight: bold;
+    width: 100%;
+    
+ }
+ .logo{
+     
+     margin-left: 2%;
+     
+ }
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 3%;
+    }
+
+.nav{
+    background-image:linear-gradient(to right, black , rgb(155, 155, 151));
+    width: 100%;
+    padding-top: 90px;
+    float:left;
+}
+
+.cuerpo{
+    display:inline-flex;
+    margin-left: 150px;
+}
+
+.elemento{
+  flex: 0 25%;  
+  margin-right: 50px;
+}
+hr{
+    display: none;
+}
